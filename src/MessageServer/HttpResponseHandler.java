@@ -25,7 +25,7 @@ public class HttpResponseHandler extends ChannelInboundHandlerAdapter {
                  DefaultFullHttpResponse  in =    (DefaultFullHttpResponse )msg;
 
 
-                 System.out.println(in.getStatus().toString() +":" +in.content().toString(Charset.defaultCharset()));
+                 System.out.println(in.getStatus().toString() +": " +in.content().toString(Charset.defaultCharset()));
 
 
 
