@@ -36,7 +36,7 @@ public class HttpResponseHandler extends ChannelInboundHandlerAdapter {
          catch (IndexOutOfBoundsException e)
          {
             // String serverMsg = buildReturnMessage("invalid message")  ;
-;
+
 
          }
          finally {
