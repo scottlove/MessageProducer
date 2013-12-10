@@ -161,32 +161,10 @@ public class PostMessageSender {
     public void sendMessage(String topic, String message) throws Exception
     {
 
-       // EventLoopGroup group = new NioEventLoopGroup();
+
         try {
 
 
-//        Bootstrap b = new Bootstrap();
-//
-//        b.group(group)
-//                .channel(NioSocketChannel.class)
-//                .remoteAddress(new InetSocketAddress(host, port))
-//                .handler(new ChannelInitializer<SocketChannel>() {
-//                    @Override
-//                    public void initChannel(SocketChannel ch) {
-//
-//
-//                        ch.pipeline().addLast("codec", new HttpClientCodec());
-//                        ch.pipeline().addLast(new HttpObjectAggregator(512 * 1024));
-//                        ch.pipeline().addLast("handler", new HttpResponseHandler());
-//                    }
-//                });
-
-
-
-                  //
-
-
-            //test two
            Channel channel = b.connect(host, port).sync().channel();
 
 

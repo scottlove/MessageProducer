@@ -28,12 +28,11 @@ public class Main {
         topic = p.getProperty("topic")  ;
 
 
-
+        PostMessageSender msg = new PostMessageSender(port,host,logger)   ;
         String message ;
         for (Integer i = 0;i<10;i++)
         {
-            message = "message count";
-            PostMessageSender msg = new PostMessageSender(port,host,logger)   ;
+            message = "message count" + ":" + i.toString();
             msg.sendMessage(topic,message);
         }
 
