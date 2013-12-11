@@ -12,13 +12,16 @@ import java.util.Properties;
 
 
 public class Main {
-    private static Logger logger = LogManager.getLogger("HelloWorld");
+    private static Logger logger = LogManager.getLogger(Main.class.getName());
 
     public static void main(String[] args) throws Exception {
         int port;
 
         String host;
         String topic;
+
+        logger.info("info test");
+        logger.error("error test");
 
 
         ApplicationProperties ap = new ApplicationProperties()  ;
