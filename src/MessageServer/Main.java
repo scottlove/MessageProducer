@@ -36,6 +36,8 @@ public class Main {
             msg.sendMessage(topic,message);
         }
 
+        msg.close();
+
 
 
     }

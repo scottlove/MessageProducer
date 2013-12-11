@@ -26,16 +26,21 @@ public class PostMessageSender {
     private final String host;
     private Logger logger ;
     Bootstrap b;
+    EventLoopGroup group;
 
 
+    public void close() throws Exception
+    {
 
+        group.shutdownGracefully().sync();
+    }
 
-    public PostMessageSender(int port, String host, Logger logger) throws Exception {
+    public PostMessageSender(int port, String host, final Logger logger) throws Exception {
 
         this.host = host;
         this.port = port;
         this.logger = logger;
-        EventLoopGroup group = new NioEventLoopGroup();
+        group = new NioEventLoopGroup();
         try {
 
 
@@ -51,13 +56,15 @@ public class PostMessageSender {
 
                             ch.pipeline().addLast("codec", new HttpClientCodec());
                             ch.pipeline().addLast(new HttpObjectAggregator(512 * 1024));
-                            ch.pipeline().addLast("handler", new HttpResponseHandler());
+                            ch.pipeline().addLast("handler", new HttpResponseHandler(logger));
                         }
                     });
         }
-        finally {
-            //group.shutdownGracefully().sync();
+        catch (Exception e)
+        {
+            logger.error(e.toString());
         }
+
 
 
     }
@@ -177,9 +184,11 @@ public class PostMessageSender {
 
 
         }
-    finally {
-        //group.shutdownGracefully().sync();
-      }
+        catch (Exception e)
+        {
+            logger.error(e.toString());
+        }
+
 
 
     }
