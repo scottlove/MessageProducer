@@ -1,1 +1,6 @@
 2013-12-06 12:40:11,197 ERROR HelloWorld [main] test hello world
+2013-12-11 16:26:20,036 ERROR M.Main [main] error test
+2013-12-11 16:27:24,704 ERROR M.Main [main] java.net.ConnectException: Connection refused: no further information: /127.0.0.1:8080
+2013-12-11 16:27:25,712 ERROR M.Main [main] java.net.ConnectException: Connection refused: no further information: /127.0.0.1:8080
+2013-12-11 16:27:26,721 ERROR M.Main [main] java.net.ConnectException: Connection refused: no further information: /127.0.0.1:8080
+2013-12-11 16:27:27,744 ERROR M.Main [main] java.net.ConnectException: Connection refused: no further information: /127.0.0.1:8080
