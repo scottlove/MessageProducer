@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" filepath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KafkaConsumerLib/KafkaConsumerLib.iml" filepath="$PROJECT_DIR$/KafkaConsumerLib/KafkaConsumerLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageProducer.iml" filepath="$PROJECT_DIR$/MessageProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageSenderTest/MessageSenderTest.iml" filepath="$PROJECT_DIR$/MessageSenderTest/MessageSenderTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyLib/NettyLib.iml" filepath="$PROJECT_DIR$/NettyLib/NettyLib.iml" />
     </modules>
   </component>
 </project>

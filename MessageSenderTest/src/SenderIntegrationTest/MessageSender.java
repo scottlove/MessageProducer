@@ -1,18 +1,16 @@
-package MessageServer;
+package SenderIntegrationTest;
 
 
+
+import MessageServer.PostMessageSender;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
-
-import java.util.Enumeration;
 import java.util.Properties;
 
 
-
-public class Main {
-    private static Logger logger = LogManager.getLogger(Main.class.getName());
+public class MessageSender {
+    private static Logger logger = LogManager.getLogger(MessageSender.class.getName());
 
     public static void main(String[] args) throws Exception {
         int port;
@@ -20,9 +18,10 @@ public class Main {
         String host;
         String topic;
 
-        logger.info("info test");
-        logger.error("error test");
 
+
+        logger.info("found log4j2")  ;
+        logger.error("blah")  ;
 
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
@@ -31,7 +30,7 @@ public class Main {
         topic = p.getProperty("topic")  ;
 
 
-        PostMessageSender msg = new PostMessageSender(port,host,logger)   ;
+        PostMessageSender msg = new PostMessageSender(port,host)   ;
         String message ;
         for (Integer i = 0;i<10;i++)
         {

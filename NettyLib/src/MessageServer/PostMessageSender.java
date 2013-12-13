@@ -13,6 +13,7 @@ import io.netty.handler.codec.http.multipart.DefaultHttpDataFactory;
 import io.netty.handler.codec.http.multipart.HttpDataFactory;
 import io.netty.handler.codec.http.multipart.HttpPostRequestEncoder;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.net.*;
@@ -35,10 +36,11 @@ public class PostMessageSender {
         group.shutdownGracefully().sync();
     }
 
-    public PostMessageSender(int port, String host, final Logger logger) throws Exception {
+    public PostMessageSender(int port, String host) throws Exception {
 
         this.host = host;
         this.port = port;
+        this.logger = LogManager.getLogger(PostMessageSender.class.getName());
         this.logger = logger;
         group = new NioEventLoopGroup();
         try {

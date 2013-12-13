@@ -6,7 +6,10 @@
         </Console>
      </Appenders>
     <Loggers>
-        <logger name="MessageServer.Main"  level="info" additivity="false">
+        <logger name="SenderIntegrationTest.MessageSender"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="NettyLib.PostMessageSender"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
         </logger>
         <Root level="error">
