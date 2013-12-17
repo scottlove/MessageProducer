@@ -16,11 +16,14 @@ public class ConsumerGroup {
     private final ConsumerConnector consumer;
     private final String topic;
     private  ExecutorService executor;
+    private IOutputter ouput;
 
-    public ConsumerGroup(String a_zookeeper, String a_groupId, String a_topic)
+    public ConsumerGroup(String a_zookeeper, String a_groupId, String a_topic, IOutputter outputter)
     {
         consumer = kafka.consumer.Consumer.createJavaConsumerConnector(createConsumerConfig(a_zookeeper, a_groupId));
+
         this.topic = a_topic;
+        this.ouput = outputter;
     }
 
     public void shutdown()
@@ -44,7 +47,7 @@ public class ConsumerGroup {
         for (final KafkaStream stream : streams)
         {
 
-            Consumer c = new Consumer(stream, threadNumber)  ;
+            Consumer c = new Consumer(stream, threadNumber,ouput)  ;
             executor.submit(c);
 
             threadNumber++;
