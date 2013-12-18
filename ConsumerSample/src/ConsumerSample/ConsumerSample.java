@@ -3,6 +3,8 @@ package ConsumerSample;
 import KafkaConsumerLib.*     ;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 
@@ -22,9 +24,16 @@ public class ConsumerSample {
        String topic = p.getProperty("topic")   ;
        int threads = Integer.parseInt(p.getProperty("threads"))  ;
        String filename =   p.getProperty("filename") ;
-       ConsumerFile fileOut = new ConsumerFile(filename)  ;
 
-        ConsumerGroup example = new ConsumerGroup(zooKeeper, groupID, topic,fileOut);
+
+
+        List<IOutputter> outputs = new ArrayList<IOutputter>();
+        outputs.add(new ConsumerFileOutputter(filename) ) ;
+        outputs.add(new ConsoleOutputter()) ;
+
+
+
+        ConsumerGroup example = new ConsumerGroup(zooKeeper, groupID, topic,outputs);
         example.run(threads);
         try {
 //

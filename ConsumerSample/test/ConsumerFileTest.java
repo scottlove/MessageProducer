@@ -1,4 +1,4 @@
-import ConsumerSample.ConsumerFile;
+import ConsumerSample.ConsumerFileOutputter;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,7 +13,7 @@ public class ConsumerFileTest {
 
         String test = "test string" ;
         String fileName = "test.htm";
-        ConsumerFile cf = new ConsumerFile(fileName)   ;
+        ConsumerFileOutputter cf = new ConsumerFileOutputter(fileName)   ;
 
         cf.writeString(test);
 

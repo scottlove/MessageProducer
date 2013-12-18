@@ -7,11 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d018b69-2ecc-4d85-9a9e-8562a4d88499" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsoleOutputter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/KafkaMonitorOutput.java" />
+      <change type="MOVED" beforePath="C:\Users\scotlov\Documents\GitHub\MessageProducer\ConsumerSample\src\ConsumerSample\ConsumerFile.java" afterPath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFileOutputter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java" afterPath="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" afterPath="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java" afterPath="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" afterPath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java" afterPath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" afterPath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" afterPath="$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NettyLib/NettyLib.iml" afterPath="$PROJECT_DIR$/NettyLib/NettyLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NettyLib/src/PostMessageSender.java" afterPath="$PROJECT_DIR$/NettyLib/src/PostMessageSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageProducer.iws" />
@@ -67,23 +71,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java" line="23" class="HttpResponseHandler" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -96,10 +84,8 @@
       <file leaf-file-name="HttpResponseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="77" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="986">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="23" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="986">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +93,7 @@
       <file leaf-file-name="ConsumerGroup.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1258">
+            <state line="43" column="62" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -116,7 +102,7 @@
       <file leaf-file-name="Consumer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="663">
+            <state line="30" column="38" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -134,16 +120,27 @@
       <file leaf-file-name="ConsumerSample.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="108" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+            <state line="40" column="56" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.properties">
+      <file leaf-file-name="KafkaMonitorOutput.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/KafkaMonitorOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+            <state line="11" column="73" selection-start="295" selection-end="295" vertical-scroll-proportion="0.28247735" vertical-offset="0" max-vertical-offset="662">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleOutputter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsoleOutputter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="93" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -158,30 +155,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostMessageSender.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
+      <file leaf-file-name="ConsumerFileOutputter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFileOutputter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="92" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="3587">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="340" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="765">
+            <state line="19" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerFileTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
+      <file leaf-file-name="PostMessageSender.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="714">
+            <state line="52" column="69" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="3638">
               <folding />
             </state>
           </provider>
@@ -227,13 +213,16 @@
         <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerFile.java" />
         <option value="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" />
         <option value="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Outputter.java" />
-        <option value="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java" />
-        <option value="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java" />
         <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFile.java" />
-        <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java" />
         <option value="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" />
         <option value="$PROJECT_DIR$/NettyLib/src/PostMessageSender.java" />
         <option value="$PROJECT_DIR$/app.properties" />
+        <option value="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java" />
+        <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsoleOutputter.java" />
+        <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java" />
+        <option value="$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java" />
+        <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFileOutputter.java" />
+        <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/KafkaMonitorOutput.java" />
       </list>
     </option>
   </component>
@@ -269,6 +258,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,38 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NettyLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NettyLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,8 +424,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,7 +434,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Dev/Lib/netty-4.0.12.Final/jar/all-in-one/netty-all-4.0.12.Final.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -491,6 +448,8 @@
     <property name="dynamic.classpath" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -590,12 +549,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -604,6 +557,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -634,6 +593,38 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -660,38 +651,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -812,7 +771,8 @@
       <workItem from="1386974137769" duration="299000" />
       <workItem from="1386974506579" duration="456000" />
       <workItem from="1387214759321" duration="20471000" />
-      <workItem from="1387387174646" duration="13581000" />
+      <workItem from="1387387174646" duration="17157000" />
+      <workItem from="1387408145759" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="initial checking">
       <created>1386376674445</created>
@@ -846,11 +806,15 @@
       <created>1387242002974</created>
       <updated>1387242002974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed Post encoding">
+      <created>1387404181819</created>
+      <updated>1387404181819</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56996000" />
+    <option name="totallyTimeSpent" value="60720000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -885,7 +849,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39846742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32088122" sideWeight="0.115015976" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32088122" sideWeight="0.15867944" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -895,8 +859,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25079873" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32088122" sideWeight="0.884984" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25079873" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32088122" sideWeight="0.884984" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -922,7 +886,8 @@
     <MESSAGE value="Updated message to be more efficient" />
     <MESSAGE value="Updated message to be more efficient&#10;" />
     <MESSAGE value="Updated logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated logging" />
+    <MESSAGE value="Fixed Post encoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Post encoding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -932,20 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
@@ -953,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFile.java">
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFileOutputter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="340" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="765">
           <folding />
@@ -977,9 +928,7 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="43" selection-start="1141" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3536">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,9 +950,7 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="18" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,9 +964,7 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="180" column="71" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3502">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,9 +981,7 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="18" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,9 +995,7 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="180" column="71" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3502">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,18 +1012,14 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="54" selection-start="4755" selection-end="4795" vertical-scroll-proportion="0.0" vertical-offset="3196" max-vertical-offset="3502">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,18 +1031,14 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="54" selection-start="4755" selection-end="4795" vertical-scroll-proportion="0.0" vertical-offset="3196" max-vertical-offset="3502">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,18 +1050,14 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="54" selection-start="4755" selection-end="4795" vertical-scroll-proportion="0.0" vertical-offset="3196" max-vertical-offset="3247">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,18 +1069,14 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="66" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="969">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="0" selection-start="4307" selection-end="4307" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="3349">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,27 +1088,21 @@
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="70" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="714">
+        <state line="33" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
@@ -1237,34 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="340" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="108" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="36" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="816">
@@ -1272,21 +1163,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="77" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NettyLib/src/PostMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="92" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="3587">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="52" column="69" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="3587">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,6 +1174,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NettyLib/src/HttpResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/ConsumerGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="62" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="56" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsoleOutputter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="93" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerFileOutputter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaConsumerLib/src/KafkaConsumerLib/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="38" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/KafkaMonitorOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="73" selection-start="295" selection-end="295" vertical-scroll-proportion="0.28247735" vertical-offset="0" max-vertical-offset="662">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,7 +1283,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>NettyLib</last-edited>
+          <last-edited>ConsumerSample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
