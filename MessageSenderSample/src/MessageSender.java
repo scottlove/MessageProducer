@@ -30,7 +30,7 @@ public class MessageSender {
         String message ;
         for (Integer i = 0;i<10;i++)
         {
-            message = "message count" + ":" + i.toString();
+            message = "message count:"  + i.toString();
             msg.sendMessage(topic,message);
         }
 

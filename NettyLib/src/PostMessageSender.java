@@ -1,4 +1,5 @@
 import io.netty.bootstrap.Bootstrap;
+import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -14,6 +15,7 @@ import io.netty.handler.codec.http.multipart.HttpPostRequestEncoder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.lang.reflect.Array;
 import java.net.*;
 
 
@@ -139,6 +141,9 @@ public class PostMessageSender {
             bodyRequestEncoder.addBodyAttribute("MSG", message);
 
 
+
+
+
         } catch (NullPointerException e) {
             // should not be since not null args
             e.printStackTrace();
@@ -146,6 +151,7 @@ public class PostMessageSender {
             // if an encoding error occurs
             e.printStackTrace();
         }
+
 
 
         // finalize request
@@ -176,6 +182,8 @@ public class PostMessageSender {
 
 
            HttpRequest request = formPost(host,port,topic,  message)   ;
+
+
            channel.write(request);
            channel.flush();
 

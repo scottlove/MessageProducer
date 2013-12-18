@@ -22,7 +22,7 @@ public class ConsumerSample {
        String topic = p.getProperty("topic")   ;
        int threads = Integer.parseInt(p.getProperty("threads"))  ;
        String filename =   p.getProperty("filename") ;
-       ConsumerFile fileOut = new ConsumerFile("consumer.htm")  ;
+       ConsumerFile fileOut = new ConsumerFile(filename)  ;
 
         ConsumerGroup example = new ConsumerGroup(zooKeeper, groupID, topic,fileOut);
         example.run(threads);

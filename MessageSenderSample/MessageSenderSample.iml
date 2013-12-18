@@ -16,6 +16,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Dev/Lib/netty-4.0.12.Final/jar/all-in-one/netty-all-4.0.12.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module" module-name="NettyLib" />
   </component>
 </module>
