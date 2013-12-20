@@ -36,7 +36,7 @@ public class ConsumerSample {
         ConsumerGroup example = new ConsumerGroup(zooKeeper, groupID, topic,outputs);
         example.run(threads);
         try {
-//
+
             while(true)
             {
                 Thread.sleep(100000);
