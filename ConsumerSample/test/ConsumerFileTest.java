@@ -1,8 +1,9 @@
-import ConsumerSample.ConsumerFileOutputter;
+
 
 import java.io.File;
 import java.io.FileInputStream;
 import static org.junit.Assert.assertTrue;
+
 
 /**
  * Created by scotlov on 12/16/13.

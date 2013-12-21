@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" filepath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/KafkaConsumerLib/KafkaConsumerLib.iml" filepath="$PROJECT_DIR$/KafkaConsumerLib/KafkaConsumerLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" filepath="$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageProducer.iml" filepath="$PROJECT_DIR$/MessageProducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" filepath="$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NettyLib/NettyLib.iml" filepath="$PROJECT_DIR$/NettyLib/NettyLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessageServerApp/MessageServerApp.iml" filepath="$PROJECT_DIR$/MessageServerApp/MessageServerApp.iml" />
     </modules>
   </component>
 </project>

@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 
 
 
+
 public class MessageSender {
     private static Logger logger = LogManager.getLogger(MessageSender.class.getName());
 
@@ -31,6 +32,7 @@ public class MessageSender {
         for (Integer i = 0;i<10;i++)
         {
             message = "message count:"  + i.toString();
+            Thread.sleep(1000) ;
             msg.sendMessage(topic,message);
         }
 

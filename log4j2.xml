@@ -12,6 +12,14 @@
         <logger name="NettyLib.PostMessageSender"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
         </logger>
+        <logger name="Producer.producer"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="ConsoleOutputter"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+
+
         <Root level="error">
             <AppenderRef ref="Console"/>
         </Root>

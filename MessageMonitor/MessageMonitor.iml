@@ -7,24 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/Dev/Lib/apache-log4j-2.0-beta9-bin/log4j-1.2-api-2.0-beta9.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/Dev/Lib/netty-4.0.12.Final/jar/all-in-one/netty-all-4.0.12.Final.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="MessageServerApp" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
