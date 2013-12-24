@@ -1,5 +1,8 @@
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -10,9 +13,7 @@ public class ConsumerSample {
 
     public static void main(String[] args) throws Exception
     {
-        // String zooKeeper = "kafkaserver.cloudapp.net:2181" ;
-        // String groupId = "1";
-        //String topic = "ptTest";
+
 
 
         ApplicationProperties ap = new ApplicationProperties()  ;
@@ -26,10 +27,11 @@ public class ConsumerSample {
 
 
 
+
         List<IOutputter> outputs = new ArrayList<IOutputter>();
-  //      outputs.add(new ConsumerFileOutputter(filename) ) ;
-  //      outputs.add(new ConsoleOutputter()) ;
-        outputs.add(new KafkaMonitorOutput(broker)) ;
+        outputs.add(new ConsumerFileOutputter(filename) ) ;
+        outputs.add(new ConsoleOutputter()) ;
+        outputs.add(new KafkaMonitorOutput(broker,ConsumerSample.class.getName())) ;
 
 
 

@@ -351,3 +351,101 @@ roducer.ProducerClosedException: producer already closed
 2013-12-20 16:43:29,580 ERROR P.producer  [nioEventLoopGroup-3-8] kafka.producer.ProducerClosedException: producer already closed
 2013-12-20 16:43:30,616 ERROR P.producer  [nioEventLoopGroup-3-9] kafka.producer.ProducerClosedException: producer already closed
 2013-12-20 16:43:31,654 ERROR P.producer  [nioEventLoopGroup-3-10] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:25,408 ERROR P.producer  [nioEventLoopGroup-3-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:26,455 ERROR P.producer  [nioEventLoopGroup-3-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:27,503 ERROR P.producer  [nioEventLoopGroup-3-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:28,540 ERROR P.producer  [nioEventLoopGroup-3-4] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:29,580 ERROR P.producer  [nioEventLoopGroup-3-5] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:30,618 ERROR P.producer  [nioEventLoopGroup-3-6] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:31,654 ERROR P.producer  [nioEventLoopGroup-3-7] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:32,691 ERROR P.producer  [nioEventLoopGroup-3-8] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:33,729 ERROR P.producer  [nioEventLoopGroup-3-9] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:34,765 ERROR P.producer  [nioEventLoopGroup-3-10] kafka.producer.ProducerClosedException: producer already closed
+afka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,668 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,669 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,669 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,669 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,669 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,769 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,770 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,770 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,771 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,771 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,772 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,772 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,773 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,773 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,773 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,773 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,774 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,774 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,774 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,774 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,775 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,775 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,775 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,776 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,776 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,776 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,776 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,777 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,777 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,777 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,777 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,778 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,778 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:06:37,778 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:25,396 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:26,454 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:27,502 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:28,539 ERROR P.producer  [pool-4-thread-2] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:29,579 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:30,617 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:31,653 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:32,691 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:33,730 ERROR P.producer  [pool-4-thread-3] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:07:34,765 ERROR P.producer  [pool-4-thread-1] kafka.producer.ProducerClosedException: producer already closed
+2013-12-23 09:18:23,469 ERROR MessageSender  [main] blah
+2013-12-23 09:26:06,802 ERROR MessageSender  [main] blah
+2013-12-23 09:46:56,819 ERROR MessageSender  [main] blah
+2013-12-23 09:48:04,528 ERROR MessageSender  [main] blah
+2013-12-23 09:53:24,035 ERROR MessageSender  [main] blah
+2013-12-23 09:55:59,311 ERROR MessageSender  [main] blah
+2013-12-23 09:57:24,840 ERROR MessageSender  [main] blah
+2013-12-23 10:03:22,293 ERROR ConsumerSample  [main] test of logger
+2013-12-23 10:04:10,455 ERROR ConsumerSample  [main] test of logger
+2013-12-23 10:05:44,153 ERROR ConsumerSample  [main] test of logger
+2013-12-23 10:06:07,414 ERROR ConsumerSample  [main] test of logger
+2013-12-23 10:06:58,134 ERROR ConsumerSample  [main] test of logger
+2013-12-23 10:30:50,358 ERROR MessageSender  [main] blah
+2013-12-23 10:31:43,385 ERROR MessageSender  [main] blah
+2013-12-23 10:32:18,380 ERROR MessageSender  [main] blah
+2013-12-23 10:33:34,696 ERROR MessageSender  [main] blah
+2013-12-23 10:34:42,149 ERROR MessageSender  [main] blah
+2013-12-23 10:35:26,398 ERROR MessageSender  [main] blah
+2013-12-23 10:37:05,278 ERROR MessageSender  [main] blah
+2013-12-23 10:38:00,748 ERROR MessageSender  [main] blah
+2013-12-23 10:39:00,474 ERROR MessageSender  [main] blah
+2013-12-23 10:41:18,628 ERROR MessageSender  [main] blah
+2013-12-23 10:41:53,607 ERROR MessageSender  [main] blah
+2013-12-23 10:43:02,461 ERROR MessageSender  [main] blah
+2013-12-23 10:45:18,010 ERROR MessageSender  [main] blah
+2013-12-23 10:49:00,251 ERROR MessageSender  [main] blah
+2013-12-23 10:51:44,611 ERROR MessageSender  [main] blah
+2013-12-23 10:56:04,540 ERROR MessageSender  [main] blah
+2013-12-23 10:58:16,246 ERROR MessageSender  [main] blah
+2013-12-23 11:01:01,503 ERROR MessageSender  [main] blah
+2013-12-23 11:03:49,022 ERROR MessageSender  [main] blah
+2013-12-23 11:04:37,062 ERROR MessageSender  [main] blah
+2013-12-23 16:15:36,093 ERROR MessageSender  [main] blah
+2013-12-23 16:17:42,225 ERROR MessageSender  [main] blah
+2013-12-23 16:19:36,341 ERROR MessageSender  [main] blah
+2013-12-23 16:20:21,994 ERROR MessageSender  [main] blah
+2013-12-23 16:21:26,230 ERROR MessageSender  [main] blah

@@ -1,30 +1,55 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 public class MessageMonitor {
+
+    static Logger logger;
+    static MonitorOutputter mo;
+
+
+
+    private static void WriteMonitorFile()
+    {
+       ProcessingMonitor pm = mo.getProcessingMonitor()    ;
+
+        ArrayList<String> s = pm.getStats();
+
+        for (String k : s)
+        {
+            logger.info(k);
+        }
+
+    }
+
+
     public static void main(String[] args) throws Exception
     {
-        // String zooKeeper = "kafkaserver.cloudapp.net:2181" ;
-        // String groupId = "1";
-        //String topic = "ptTest";
 
+        logger = LogManager.getLogger(MessageMonitor.class.getName());
 
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
         String zooKeeper = p.getProperty("zooKeeper")   ;
-        String groupID =  p.getProperty("groupID")   ;
+        String groupID =  p.getProperty("traceGroupID")   ;
         String topic = p.getProperty("traceTopic")   ;
         int threads = Integer.parseInt(p.getProperty("threads"))  ;
         String filename =   p.getProperty("traceFilename") ;
         String broker = p.getProperty("metadata.broker.list")  ;
 
-
+        mo = new MonitorOutputter();
 
         List<IOutputter> outputs = new ArrayList<IOutputter>();
-        outputs.add(new ConsumerFileOutputter(filename) ) ;
-        outputs.add(new ConsoleOutputter()) ;
+        outputs.add(mo ) ;
+
 
 
 
@@ -35,8 +60,8 @@ public class MessageMonitor {
 
             while(true)
             {
-                Thread.sleep(100000);
-                System.out.println("still alive") ;
+                Thread.sleep(10000);
+                WriteMonitorFile()  ;
             }
 
         }

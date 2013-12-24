@@ -5,9 +5,7 @@ import java.io.FileInputStream;
 import static org.junit.Assert.assertTrue;
 
 
-/**
- * Created by scotlov on 12/16/13.
- */
+
 public class ConsumerFileTest {
     @org.junit.Test
     public void testWriteString() throws Exception {
