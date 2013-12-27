@@ -7,19 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d018b69-2ecc-4d85-9a9e-8562a4d88499" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonitor/src/MonitorOutputter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonitor/src/traceObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" afterPath="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample.java" afterPath="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample.java" />
+      <change type="DELETED" beforePath="C:\Users\scotlov\Documents\GitHub\MessageProducer\.idea\libraries\log4j_api_2_0_beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\scotlov\Documents\GitHub\MessageProducer\.idea\libraries\log4j_core_2_0_beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\scotlov\Documents\GitHub\MessageProducer\.idea\libraries\netty_all_4_0_12_Final.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" afterPath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" afterPath="$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java" afterPath="$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" afterPath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/app.log" afterPath="$PROJECT_DIR$/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.properties" afterPath="$PROJECT_DIR$/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j2.xml" afterPath="$PROJECT_DIR$/log4j2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java" afterPath="$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageProducer.iml" afterPath="$PROJECT_DIR$/MessageProducer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" afterPath="$PROJECT_DIR$/MessageSenderSample/MessageSenderSample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageServerApp/MessageServerApp.iml" afterPath="$PROJECT_DIR$/MessageServerApp/MessageServerApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java" afterPath="$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java" afterPath="$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java" afterPath="$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonitor/src/traceObject.java" afterPath="$PROJECT_DIR$/MessageMonitor/src/traceObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageProducer.iws" />
@@ -89,14 +90,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MessageMonitor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MessageMonitor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="78" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.49609983" vertical-offset="498" max-vertical-offset="1343">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1324#1336#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageServerApp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="43" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerSample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageSender.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="24" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +129,7 @@
       <file leaf-file-name="log4j2.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="92" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="39" column="0" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -113,12 +138,8 @@
       <file leaf-file-name="MonitorOutputter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MonitorOutputter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1088">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-              </folding>
+            <state line="19" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1088">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,11 +147,8 @@
       <file leaf-file-name="ProcessingMonitor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="13" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1020">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#848#856#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,18 +156,7 @@
       <file leaf-file-name="ProcessingMonitorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2237" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1717">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="289">
+            <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -158,10 +165,8 @@
       <file leaf-file-name="MessageMonitorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="371" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="646">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,43 +174,7 @@
       <file leaf-file-name="ConsumerFileTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="55" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traceObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonitor/src/traceObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -262,28 +231,28 @@
         <option value="$PROJECT_DIR$/MessageServer/src/ApplicationProperties.java" />
         <option value="$PROJECT_DIR$/MessageServerApp/src/ApplicationProperties.java" />
         <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample/ConsumerSample.java" />
-        <option value="$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java" />
         <option value="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" />
         <option value="$PROJECT_DIR$/ConsumerSample/log4j2.xml" />
         <option value="$PROJECT_DIR$/ConsumerSample/src/ConsumerSample.java" />
         <option value="$PROJECT_DIR$/app.properties" />
         <option value="$PROJECT_DIR$/trace.html" />
         <option value="$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java" />
-        <option value="$PROJECT_DIR$/MessageMonitor/src/traceObject.java" />
-        <option value="$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java" />
-        <option value="$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java" />
-        <option value="$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java" />
         <option value="$PROJECT_DIR$/log4j2.xml" />
-        <option value="$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java" />
         <option value="$PROJECT_DIR$/MessageMonitor/src/MonitorOutputter.java" />
+        <option value="$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java" />
+        <option value="$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java" />
+        <option value="$PROJECT_DIR$/MessageMonitor/src/traceObject.java" />
+        <option value="$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java" />
+        <option value="$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java" />
+        <option value="$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1296" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -292,6 +261,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -311,8 +282,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,15 +291,9 @@
               <option name="myItemId" value="MessageProducer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -338,160 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageServerApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageServerApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageSenderSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageSenderSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConsumerSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConsumerSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageProducer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConsumerSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -507,7 +318,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessageListener" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -525,10 +336,10 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -541,12 +352,12 @@
       <recent name="C:\Users\scotlov\IdeaProjects\MessageProducer\src\MessageServer" />
       <recent name="C:\Users\scotlov\IdeaProjects\MessageProducer\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\scotlov\Documents\GitHub\MessageProducer\MessageMonitor" />
       <recent name="C:\Users\scotlov\Documents\GitHub\MessageProducer\NettyLib" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MessageSender">
@@ -665,26 +476,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -693,23 +484,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -753,21 +528,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -787,6 +547,109 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -885,6 +748,10 @@
       <workItem from="1387578095696" duration="4805000" />
       <workItem from="1387583068943" duration="3763000" />
       <workItem from="1387817244793" duration="20261000" />
+      <workItem from="1388177831617" duration="720000" />
+      <workItem from="1388179034604" duration="541000" />
+      <workItem from="1388179609803" duration="2946000" />
+      <workItem from="1388184355699" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="initial checking">
       <created>1386376674445</created>
@@ -938,7 +805,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98343000" />
+    <option name="totallyTimeSpent" value="102568000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -961,32 +828,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="704" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32688928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39846742" sideWeight="0.8780618" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3170498" sideWeight="0.115015976" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32688928" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662836" sideWeight="0.8413206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260135" sideWeight="0.840625" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3170498" sideWeight="0.884984" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4983845" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.884984" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1026,18 +893,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/traceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
@@ -1057,10 +930,7 @@
     <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="81" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1324#1336#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,9 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="293" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="14" column="4" selection-start="293" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java">
@@ -1094,16 +962,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
@@ -1122,9 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
@@ -1143,9 +1005,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
@@ -1244,125 +1104,40 @@
         <state line="6" column="17" selection-start="155" selection-end="155" vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/src/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="8" column="11" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsumerSample/src/ConsumerSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="49" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
+        <state line="11" column="29" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java">
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="683" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="146" selection-start="8740" selection-end="8886" vertical-scroll-proportion="-19.384615" vertical-offset="1043" max-vertical-offset="1666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="55" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/traceObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="371" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#848#856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2237" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1717">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="92" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
@@ -1370,21 +1145,52 @@
     <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MonitorOutputter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1088">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java">
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/ProcessingMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="78" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.49609983" vertical-offset="498" max-vertical-offset="1343">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1324#1336#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/src/traceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/test/ProcessingMonitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/ApplicationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="77" selection-end="77" vertical-scroll-proportion="0.23579545" vertical-offset="2" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="43" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1205,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1419,7 +1224,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>log4j-1.2-api-2.0-beta9</last-edited>
+          <last-edited>log4j-api-2.0-beta9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1443,11 +1248,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ConsumerSample</last-edited>
+          <last-edited>MessageServerApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1467,7 +1273,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>log4j-core-2.0-beta9</last-edited>
+          <last-edited>MessageListener</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

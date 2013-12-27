@@ -1,7 +1,7 @@
 import org.apache.logging.log4j.Logger;
-
-import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
+import java.util.Properties;
+
 
 
 
