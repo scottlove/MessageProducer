@@ -18,6 +18,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="MessageListener" level="project" />
+    <orderEntry type="library" name="log4j-api-2.0-beta9" level="project" />
   </component>
 </module>
 

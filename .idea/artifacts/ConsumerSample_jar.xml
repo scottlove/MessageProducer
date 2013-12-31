@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ConsumerSample:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConsumerSample_jar</output-path>
+    <root id="archive" name="ConsumerSample.jar">
+      <element id="module-output" name="ConsumerSample" />
+      <element id="module-output" name="MessageServerApp" />
+      <element id="extracted-dir" path="C:/Dev/Lib/apache-log4j-2.0-beta9-bin/log4j-api-2.0-beta9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/log4j2.xml" />
+      <element id="library" level="application" name="log4j-core-2.0-beta9" />
+    </root>
+  </artifact>
+</component>

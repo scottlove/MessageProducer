@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MessageServerApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MessageServerApp_jar</output-path>
+    <root id="archive" name="MessageServerApp.jar">
+      <element id="module-output" name="MessageServerApp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

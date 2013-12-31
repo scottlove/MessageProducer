@@ -24,7 +24,7 @@ public class MessageServerApp {
             port = Integer.parseInt( p.getProperty("port") ) ;
         }
 
-        brokerList = p.getProperty("metadata.broker.list")   ;
+        brokerList = p.getProperty("metadata.broker.list:q!")   ;
 
         logger = LogManager.getLogger(MessageServerApp.class.getName());
 

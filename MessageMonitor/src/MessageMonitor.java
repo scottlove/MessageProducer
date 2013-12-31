@@ -1,12 +1,8 @@
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileReader;
-import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+import java.io.FileOutputStream;
 import java.util.*;
 
 
@@ -17,9 +13,32 @@ public class MessageMonitor {
 
 
 
-    private static void WriteMonitorFile()
+    private static void WriteMonitorFile(String filename)
     {
-       ProcessingMonitor pm = mo.getProcessingMonitor()    ;
+
+        ProcessingMonitor pm = mo.getProcessingMonitor()    ;
+        try
+        {
+
+          String par = "<p>"  ;
+          FileOutputStream f0 = new FileOutputStream(filename,true)    ;
+          ArrayList<String> s = pm.getStats();
+
+          for (String k : s)
+          {
+              f0.write(par.getBytes());
+              f0.write(k.getBytes());
+              f0.write(par.getBytes());
+              f0.write(System.getProperty("line.separator").getBytes());
+          }
+          f0.close();
+          f0=null;
+        }
+        catch(Exception e)
+        {
+            logger.error(e.getMessage());
+        }
+
 
         ArrayList<String> s = pm.getStats();
 
@@ -33,8 +52,10 @@ public class MessageMonitor {
 
     public static void main(String[] args) throws Exception
     {
+        try
+        {
 
-        logger = LogManager.getLogger(MessageMonitor.class.getName());
+
 
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
@@ -44,6 +65,12 @@ public class MessageMonitor {
         int threads = Integer.parseInt(p.getProperty("threads"))  ;
         String filename =   p.getProperty("traceFilename") ;
         String broker = p.getProperty("metadata.broker.list")  ;
+
+        System.out.println(zooKeeper)   ;
+
+        String name = MessageMonitor.class.getName();
+        logger = LogManager.getLogger(name);
+
 
         mo = new MonitorOutputter();
 
@@ -61,7 +88,7 @@ public class MessageMonitor {
             while(true)
             {
                 Thread.sleep(10000);
-                WriteMonitorFile()  ;
+                WriteMonitorFile(filename)  ;
             }
 
         }
@@ -69,5 +96,11 @@ public class MessageMonitor {
         {
         }
         example.shutdown();
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage())     ;
+
+        }
     }
 }

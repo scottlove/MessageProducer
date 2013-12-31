@@ -20,6 +20,7 @@ public class MonitorOutputter implements IOutputter {
 
       try
       {
+
             traceObject t = parseLine(s) ;
             pm.addData(t);
       }

@@ -30,6 +30,9 @@
         <logger name="MessageHandler"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
         </logger>
+        <logger name="MessageServerApp"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
 
 
         <Root level="error">

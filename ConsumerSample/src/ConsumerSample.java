@@ -25,7 +25,9 @@ public class ConsumerSample {
         String filename =   p.getProperty("filename") ;
         String broker = p.getProperty("metadata.broker.list")  ;
 
-
+        String name = ConsumerSample.class.getName();
+        Logger logger = LogManager.getLogger(name);
+        logger.info(name)   ;
 
 
         List<IOutputter> outputs = new ArrayList<IOutputter>();
