@@ -2,7 +2,10 @@
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import java.io.File;
 import java.io.FileOutputStream;
+import java.sql.Time;
+import java.sql.Timestamp;
 import java.util.*;
 
 
@@ -12,6 +15,26 @@ public class MessageMonitor {
     static MonitorOutputter mo;
 
 
+    public String rollMonitorFile(String filename)
+    {
+        String newFileName = "";
+        File f = new File(filename);
+
+
+        // if file exists
+        if(f.exists())
+        {
+
+            Date d = new Date();
+            Timestamp t =new Timestamp(d.getTime());
+
+            newFileName = filename+t.getTime();
+            f.renameTo(new File(newFileName) );
+
+        }
+
+        return newFileName;
+    }
 
     private static void WriteMonitorFile(String filename)
     {
@@ -19,7 +42,6 @@ public class MessageMonitor {
         ProcessingMonitor pm = mo.getProcessingMonitor()    ;
         try
         {
-
           String par = "<p>"  ;
           FileOutputStream f0 = new FileOutputStream(filename,true)    ;
           ArrayList<String> s = pm.getStats();
