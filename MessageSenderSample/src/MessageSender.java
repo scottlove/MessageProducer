@@ -9,22 +9,42 @@ import org.apache.log4j.Logger;
 public class MessageSender {
     private static Logger logger = LogManager.getLogger(MessageSender.class.getName());
 
+    static int port;
+    static String host;
+    static String topic;
+    static String  env;
+    public static int getPort() {
+        return port;
+    }
+
+    public static String getHost() {
+        return host;
+    }
+
+    public static String getTopic() {
+        return topic;
+    }
+
+    public static String getEnv() {
+        return env;
+    }
+
+
+
+    public static void initializeApp(Properties p)
+    {
+        env = p.getProperty("environment");
+        host = p.getProperty("nettyhost"+env)  ;
+        port =   Integer.parseInt(p.getProperty("nettyport"+env) ) ;
+        topic = p.getProperty("messageSenderTopic"+env)  ;
+    }
+
     public static void main(String[] args) throws Exception {
-        int port;
-
-        String host;
-        String topic;
-
-
-
-        logger.info("found log4j2")  ;
-        logger.error("blah")  ;
 
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
-        host = p.getProperty("nettyhost")  ;
-        port =   Integer.parseInt(p.getProperty("nettyport") ) ;
-        topic = p.getProperty("topic")  ;
+        initializeApp(p);
+
 
 
         PostMessageSender msg = new PostMessageSender(port,host)   ;

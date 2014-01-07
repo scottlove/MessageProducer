@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
     <Appenders>
+        <File name="MyFile" fileName="logs/app.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
         <Console name="Console" target="SYSTEM_OUT">
           <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
@@ -8,30 +11,39 @@
     <Loggers>
         <logger name="SenderIntegrationTest.MessageSender"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="NettyLib.PostMessageSender"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="Producer.producer"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="ConsoleOutputter"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="ConsoleFileOutputter"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="MessageMonitor"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="ConsumerSample"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="MessageHandler"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
         <logger name="MessageServerApp"  level="info" additivity="false">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
         </logger>
 
 

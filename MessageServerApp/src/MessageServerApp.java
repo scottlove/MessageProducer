@@ -7,28 +7,43 @@ import java.util.Properties;
 
 public class MessageServerApp {
 
-    private int port;
-    private static Logger logger ;
-    String brokerList;
+    static int port;
+    static String env;
+    static Logger logger ;
+    static String brokerList;
+
+    public static String getBrokerList() {
+        return brokerList;
+    }
+
+    public static int getPort() {
+        return port;
+    }
+
+
+
+    public static void initializeApp(Properties p)
+    {
+
+        env = p.getProperty("environment");
+        brokerList = p.getProperty("metadata.broker.list"+env)  ;
+        port =   Integer.parseInt(p.getProperty("port"+env) ) ;
+
+    }
 
     public static void main(String[] args) throws Exception {
-        int port;
-        String brokerList;
+
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties()  ;
+        initializeApp(p);
 
 
-        if (args.length > 0) {
-            port = Integer.parseInt(args[0]);
-        } else {
-            port = Integer.parseInt( p.getProperty("port") ) ;
-        }
-
-        brokerList = p.getProperty("metadata.broker.list:q!")   ;
 
         logger = LogManager.getLogger(MessageServerApp.class.getName());
 
         logger.info("Starting Message Server")        ;
+        logger.info("brokerList="+brokerList);
+        logger.info("port="+port);
 
 
 

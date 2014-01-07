@@ -11,19 +11,66 @@ import java.util.Properties;
 
 public class ConsumerSample {
 
+
+
+    static String  env ;
+    static String zooKeeper  ;
+    static String groupID  ;
+    static String topic  ;
+    static int threads  ;
+    static String filename ;
+    static String broker  ;
+
+
+
+    public static String getEnv() {
+        return env;
+    }
+
+    public static String getZooKeeper() {
+        return zooKeeper;
+    }
+
+    public static String getGroupID() {
+        return groupID;
+    }
+
+    public static String getTopic() {
+        return topic;
+    }
+
+    public static int getThreads() {
+        return threads;
+    }
+
+    public static String getFilename() {
+        return filename;
+    }
+
+    public static String getBroker() {
+        return broker;
+    }
+
+    public static void initializeApp(Properties p)
+    {
+        env = p.getProperty("environment");
+        zooKeeper = p.getProperty("zooKeeper"+env)   ;
+        groupID =  p.getProperty("groupID"+env)   ;
+        topic = p.getProperty("topic"+env)   ;
+        threads = Integer.parseInt(p.getProperty("threads"+env))  ;
+        filename =   p.getProperty("filename"+env) ;
+        broker = p.getProperty("consumer.broker.list"+env)  ;
+    }
+
+
     public static void main(String[] args) throws Exception
     {
 
-
-
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
-        String zooKeeper = p.getProperty("zooKeeper")   ;
-        String groupID =  p.getProperty("groupID")   ;
-        String topic = p.getProperty("topic")   ;
-        int threads = Integer.parseInt(p.getProperty("threads"))  ;
-        String filename =   p.getProperty("filename") ;
-        String broker = p.getProperty("metadata.broker.list")  ;
+        initializeApp(p);
+
+
 
         String name = ConsumerSample.class.getName();
         Logger logger = LogManager.getLogger(name);
