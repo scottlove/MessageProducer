@@ -49,14 +49,16 @@ public class MessageSender {
 
         PostMessageSender msg = new PostMessageSender(port,host)   ;
         String message ;
-        for (Integer i = 0;i<10;i++)
+        Integer i = 0;
+        while(true)
         {
             message = "message count:"  + i.toString();
-            //Thread.sleep(100) ;
+            Thread.sleep(100) ;
             msg.sendMessage(topic,message);
+            i++;
         }
 
-        msg.close();
+        //msg.close();
 
 
 

@@ -162,7 +162,6 @@ public class MessageMonitor {
 
 
 
-
             ConsumerGroup example = new ConsumerGroup(zooKeeper, groupID, topic,outputs);
             example.run(threads);
             try {
