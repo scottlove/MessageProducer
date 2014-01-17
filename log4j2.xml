@@ -45,7 +45,14 @@
             <AppenderRef ref="Console"/>
             <AppenderRef ref="MyFile"/>
         </logger>
-
+        <logger name="AggOutputter"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
+        </logger>
+        <logger name="MessageAggApp"  level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile"/>
+        </logger>
 
         <Root level="error">
             <AppenderRef ref="Console"/>

@@ -1,1 +1,227 @@
 17:16:47.975 [main] WARN  MessageMonitor - No previous logfile to roll on Startup
+11:24:59.781 [main] INFO  MessageServerApp - Starting Message Server
+11:24:59.783 [main] INFO  MessageServerApp - port=8081
+11:25:44.332 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - t
+11:25:44.454 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - e
+11:25:44.644 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - s
+11:25:44.748 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - t
+11:25:51.236 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - t
+11:25:51.411 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - e
+11:25:51.620 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - s
+11:25:51.748 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - t
+11:25:54.173 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - 1
+11:25:56.852 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - 2
+11:25:58.500 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - 3
+11:26:02.508 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - 
+13:09:24.541 [main] INFO  MessageServerApp - Starting Message Server
+13:09:24.542 [main] INFO  MessageServerApp - port=8081
+13:09:46.873 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - test
+13:09:55.405 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - bubeautiful
+13:40:50.787 [main] INFO  MessageServerApp - Starting Message Server
+13:40:50.788 [main] INFO  MessageServerApp - port=8081
+13:41:03.414 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - test
+14:09:56.022 [main] INFO  MessageServerApp - Starting Message Server
+14:09:56.024 [main] INFO  MessageServerApp - port=8081
+14:31:50.050 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - moon: 21
+14:34:00.385 [main] INFO  MessageServerApp - Starting Message Server
+14:34:00.386 [main] INFO  MessageServerApp - port=8081
+14:34:18.822 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - moon: 20
+14:36:01.288 [main] INFO  MessageServerApp - Starting Message Server
+14:36:01.290 [main] INFO  MessageServerApp - port=8081
+14:36:08.180 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - test0
+14:37:12.895 [nioEventLoopGroup-3-2] INFO  ConsoleOutputter - test0
+14:37:12.916 [nioEventLoopGroup-3-3] INFO  ConsoleOutputter - test1
+14:37:12.946 [nioEventLoopGroup-3-4] INFO  ConsoleOutputter - test2
+14:37:12.974 [nioEventLoopGroup-3-5] INFO  ConsoleOutputter - test3
+14:37:13.004 [nioEventLoopGroup-3-6] INFO  ConsoleOutputter - test4
+14:37:13.032 [nioEventLoopGroup-3-7] INFO  ConsoleOutputter - test5
+14:37:13.062 [nioEventLoopGroup-3-8] INFO  ConsoleOutputter - test6
+14:37:13.091 [nioEventLoopGroup-3-9] INFO  ConsoleOutputter - test7
+14:37:13.119 [nioEventLoopGroup-3-10] INFO  ConsoleOutputter - test8
+14:37:13.149 [nioEventLoopGroup-3-11] INFO  ConsoleOutputter - test9
+14:37:44.015 [nioEventLoopGroup-3-15] INFO  ConsoleOutputter - test3
+14:37:44.015 [nioEventLoopGroup-3-17] INFO  ConsoleOutputter - test5
+14:37:44.015 [nioEventLoopGroup-3-12] INFO  ConsoleOutputter - test0
+14:37:44.015 [nioEventLoopGroup-3-18] INFO  ConsoleOutputter - test6
+14:37:44.015 [nioEventLoopGroup-3-14] INFO  ConsoleOutputter - test2
+14:37:44.015 [nioEventLoopGroup-3-13] INFO  ConsoleOutputter - test1
+14:37:44.015 [nioEventLoopGroup-3-16] INFO  ConsoleOutputter - test4
+14:37:44.016 [nioEventLoopGroup-3-19] INFO  ConsoleOutputter - test7
+14:37:44.017 [nioEventLoopGroup-3-20] INFO  ConsoleOutputter - test8
+14:37:44.018 [nioEventLoopGroup-3-21] INFO  ConsoleOutputter - test9
+14:38:39.132 [nioEventLoopGroup-3-24] INFO  ConsoleOutputter - cow: 20
+14:38:39.132 [nioEventLoopGroup-3-2] INFO  ConsoleOutputter - over: 20
+14:38:39.132 [nioEventLoopGroup-3-23] INFO  ConsoleOutputter - score: 28
+14:38:39.132 [nioEventLoopGroup-3-22] INFO  ConsoleOutputter - moon: 20
+14:38:39.132 [nioEventLoopGroup-3-3] INFO  ConsoleOutputter - nature: 10
+14:38:39.132 [nioEventLoopGroup-3-1] INFO  ConsoleOutputter - doctor: 17
+14:38:39.133 [nioEventLoopGroup-3-4] INFO  ConsoleOutputter - snow: 24
+14:38:39.135 [nioEventLoopGroup-3-5] INFO  ConsoleOutputter - four: 28
+14:38:39.137 [nioEventLoopGroup-3-6] INFO  ConsoleOutputter - keeps: 17
+14:38:39.138 [nioEventLoopGroup-3-7] INFO  ConsoleOutputter - with: 10
+14:38:39.140 [nioEventLoopGroup-3-8] INFO  ConsoleOutputter - a: 17
+14:38:39.141 [nioEventLoopGroup-3-9] INFO  ConsoleOutputter - white: 24
+14:38:39.143 [nioEventLoopGroup-3-10] INFO  ConsoleOutputter - dwarfs: 24
+14:38:39.144 [nioEventLoopGroup-3-11] INFO  ConsoleOutputter - at: 10
+14:38:39.146 [nioEventLoopGroup-3-12] INFO  ConsoleOutputter - the: 81
+14:38:39.148 [nioEventLoopGroup-3-13] INFO  ConsoleOutputter - and: 52
+14:38:39.149 [nioEventLoopGroup-3-14] INFO  ConsoleOutputter - i: 10
+14:38:39.151 [nioEventLoopGroup-3-15] INFO  ConsoleOutputter - two: 10
+14:38:39.152 [nioEventLoopGroup-3-16] INFO  ConsoleOutputter - away: 17
+14:38:39.155 [nioEventLoopGroup-3-17] INFO  ConsoleOutputter - seven: 52
+14:38:39.157 [nioEventLoopGroup-3-18] INFO  ConsoleOutputter - apple: 17
+14:38:39.158 [nioEventLoopGroup-3-19] INFO  ConsoleOutputter - am: 10
+14:38:39.160 [nioEventLoopGroup-3-20] INFO  ConsoleOutputter - an: 17
+14:38:39.161 [nioEventLoopGroup-3-21] INFO  ConsoleOutputter - jumped: 20
+14:38:39.162 [nioEventLoopGroup-3-22] INFO  ConsoleOutputter - years: 28
+14:38:39.163 [nioEventLoopGroup-3-23] INFO  ConsoleOutputter - day: 17
+14:38:39.165 [nioEventLoopGroup-3-24] INFO  ConsoleOutputter - ago: 28
+15:04:31.700 [main] INFO  MessageAggApp - Starting Message Server
+15:04:31.701 [main] INFO  MessageAggApp - port=8081
+15:05:00.133 [nioEventLoopGroup-3-3] INFO  AggOutputter - test2
+15:05:00.133 [nioEventLoopGroup-3-1] INFO  AggOutputter - test0
+15:05:00.133 [nioEventLoopGroup-3-7] INFO  AggOutputter - test6
+15:05:00.133 [nioEventLoopGroup-3-5] INFO  AggOutputter - test4
+15:05:00.133 [nioEventLoopGroup-3-6] INFO  AggOutputter - test5
+15:05:00.133 [nioEventLoopGroup-3-9] INFO  AggOutputter - test8
+15:05:00.133 [nioEventLoopGroup-3-2] INFO  AggOutputter - test1
+15:05:00.133 [nioEventLoopGroup-3-8] INFO  AggOutputter - test7
+15:05:00.133 [nioEventLoopGroup-3-10] INFO  AggOutputter - test9
+15:05:00.133 [nioEventLoopGroup-3-4] INFO  AggOutputter - test3
+15:17:36.274 [main] INFO  MessageAggApp - Starting Message Aggregator
+15:17:36.275 [main] INFO  MessageAggApp - port=8081
+15:32:48.332 [nioEventLoopGroup-3-5] INFO  AggOutputter - over: 21
+15:32:48.332 [nioEventLoopGroup-3-8] INFO  AggOutputter - four: 28
+15:32:48.332 [nioEventLoopGroup-3-14] INFO  AggOutputter - at: 13
+15:32:48.332 [nioEventLoopGroup-3-13] INFO  AggOutputter - white: 19
+15:32:48.332 [nioEventLoopGroup-3-1] INFO  AggOutputter - moon: 21
+15:32:48.332 [nioEventLoopGroup-3-4] INFO  AggOutputter - doctor: 18
+15:32:48.332 [nioEventLoopGroup-3-2] INFO  AggOutputter - score: 28
+15:32:48.332 [nioEventLoopGroup-3-3] INFO  AggOutputter - cow: 21
+15:32:48.333 [nioEventLoopGroup-3-15] INFO  AggOutputter - the: 79
+15:32:48.332 [nioEventLoopGroup-3-9] INFO  AggOutputter - keeps: 18
+15:32:48.333 [nioEventLoopGroup-3-6] INFO  AggOutputter - nature: 13
+15:32:48.332 [nioEventLoopGroup-3-7] INFO  AggOutputter - snow: 19
+15:32:48.332 [nioEventLoopGroup-3-11] INFO  AggOutputter - a: 18
+15:32:48.333 [nioEventLoopGroup-3-12] INFO  AggOutputter - dwarfs: 19
+15:32:48.333 [nioEventLoopGroup-3-10] INFO  AggOutputter - with: 13
+15:32:48.334 [nioEventLoopGroup-3-16] INFO  AggOutputter - and: 47
+15:32:48.336 [nioEventLoopGroup-3-17] INFO  AggOutputter - i: 13
+15:32:48.337 [nioEventLoopGroup-3-18] INFO  AggOutputter - away: 18
+15:32:48.339 [nioEventLoopGroup-3-19] INFO  AggOutputter - two: 13
+15:32:48.341 [nioEventLoopGroup-3-20] INFO  AggOutputter - seven: 47
+15:32:48.343 [nioEventLoopGroup-3-21] INFO  AggOutputter - am: 13
+15:32:48.345 [nioEventLoopGroup-3-22] INFO  AggOutputter - apple: 18
+15:32:48.346 [nioEventLoopGroup-3-23] INFO  AggOutputter - an: 18
+15:32:48.348 [nioEventLoopGroup-3-24] INFO  AggOutputter - jumped: 21
+15:32:48.349 [nioEventLoopGroup-3-1] INFO  AggOutputter - years: 28
+15:32:48.350 [nioEventLoopGroup-3-2] INFO  AggOutputter - day: 18
+15:32:48.352 [nioEventLoopGroup-3-3] INFO  AggOutputter - ago: 28
+15:34:16.435 [nioEventLoopGroup-3-9] INFO  AggOutputter - nature: 27
+15:34:16.435 [nioEventLoopGroup-3-8] INFO  AggOutputter - over: 22
+15:34:16.435 [nioEventLoopGroup-3-5] INFO  AggOutputter - score: 23
+15:34:16.435 [nioEventLoopGroup-3-4] INFO  AggOutputter - moon: 22
+15:34:16.435 [nioEventLoopGroup-3-7] INFO  AggOutputter - doctor: 11
+15:34:16.435 [nioEventLoopGroup-3-6] INFO  AggOutputter - cow: 22
+15:34:16.436 [nioEventLoopGroup-3-10] INFO  AggOutputter - snow: 16
+15:34:16.438 [nioEventLoopGroup-3-11] INFO  AggOutputter - four: 23
+15:34:16.439 [nioEventLoopGroup-3-12] INFO  AggOutputter - keeps: 11
+15:34:16.441 [nioEventLoopGroup-3-13] INFO  AggOutputter - with: 27
+15:34:16.442 [nioEventLoopGroup-3-14] INFO  AggOutputter - a: 11
+15:34:16.444 [nioEventLoopGroup-3-15] INFO  AggOutputter - at: 27
+15:34:16.445 [nioEventLoopGroup-3-16] INFO  AggOutputter - white: 16
+15:34:16.447 [nioEventLoopGroup-3-17] INFO  AggOutputter - dwarfs: 16
+15:34:16.448 [nioEventLoopGroup-3-18] INFO  AggOutputter - the: 71
+15:34:16.450 [nioEventLoopGroup-3-19] INFO  AggOutputter - i: 27
+15:34:16.452 [nioEventLoopGroup-3-20] INFO  AggOutputter - and: 39
+15:34:16.453 [nioEventLoopGroup-3-21] INFO  AggOutputter - two: 27
+15:34:16.455 [nioEventLoopGroup-3-22] INFO  AggOutputter - away: 11
+15:34:16.456 [nioEventLoopGroup-3-23] INFO  AggOutputter - seven: 39
+15:34:16.458 [nioEventLoopGroup-3-24] INFO  AggOutputter - am: 27
+15:34:16.460 [nioEventLoopGroup-3-1] INFO  AggOutputter - apple: 11
+15:34:16.461 [nioEventLoopGroup-3-2] INFO  AggOutputter - an: 11
+15:34:16.463 [nioEventLoopGroup-3-3] INFO  AggOutputter - jumped: 22
+15:34:16.464 [nioEventLoopGroup-3-4] INFO  AggOutputter - years: 23
+15:34:16.465 [nioEventLoopGroup-3-5] INFO  AggOutputter - day: 11
+15:34:16.466 [nioEventLoopGroup-3-6] INFO  AggOutputter - ago: 23
+15:44:53.345 [nioEventLoopGroup-3-9] INFO  AggOutputter - cow: 19
+15:44:53.345 [nioEventLoopGroup-3-12] INFO  AggOutputter - nature: 21
+15:44:53.345 [nioEventLoopGroup-3-7] INFO  AggOutputter - moon: 19
+15:44:53.345 [nioEventLoopGroup-3-8] INFO  AggOutputter - score: 26
+15:44:53.345 [nioEventLoopGroup-3-10] INFO  AggOutputter - doctor: 22
+15:44:53.345 [nioEventLoopGroup-3-11] INFO  AggOutputter - over: 19
+15:44:53.347 [nioEventLoopGroup-3-13] INFO  AggOutputter - snow: 11
+15:44:53.348 [nioEventLoopGroup-3-14] INFO  AggOutputter - four: 26
+15:44:53.350 [nioEventLoopGroup-3-15] INFO  AggOutputter - keeps: 22
+15:44:53.352 [nioEventLoopGroup-3-16] INFO  AggOutputter - with: 21
+15:44:53.353 [nioEventLoopGroup-3-17] INFO  AggOutputter - a: 22
+15:44:53.355 [nioEventLoopGroup-3-18] INFO  AggOutputter - dwarfs: 11
+15:44:53.356 [nioEventLoopGroup-3-19] INFO  AggOutputter - white: 11
+15:44:53.358 [nioEventLoopGroup-3-20] INFO  AggOutputter - at: 21
+15:44:53.359 [nioEventLoopGroup-3-21] INFO  AggOutputter - the: 71
+15:44:53.361 [nioEventLoopGroup-3-22] INFO  AggOutputter - and: 37
+15:44:53.363 [nioEventLoopGroup-3-23] INFO  AggOutputter - i: 21
+15:44:53.364 [nioEventLoopGroup-3-24] INFO  AggOutputter - two: 21
+15:44:53.366 [nioEventLoopGroup-3-1] INFO  AggOutputter - away: 22
+15:44:53.367 [nioEventLoopGroup-3-2] INFO  AggOutputter - seven: 37
+15:44:53.369 [nioEventLoopGroup-3-3] INFO  AggOutputter - apple: 22
+15:44:53.370 [nioEventLoopGroup-3-4] INFO  AggOutputter - am: 21
+15:44:53.372 [nioEventLoopGroup-3-5] INFO  AggOutputter - an: 22
+15:44:53.373 [nioEventLoopGroup-3-6] INFO  AggOutputter - jumped: 19
+15:44:53.374 [nioEventLoopGroup-3-7] INFO  AggOutputter - years: 26
+15:44:53.376 [nioEventLoopGroup-3-8] INFO  AggOutputter - day: 22
+15:44:53.377 [nioEventLoopGroup-3-9] INFO  AggOutputter - ago: 26
+15:46:46.494 [nioEventLoopGroup-3-12] INFO  AggOutputter - cow: 16
+15:46:46.494 [nioEventLoopGroup-3-10] INFO  AggOutputter - moon: 16
+15:46:46.494 [nioEventLoopGroup-3-14] INFO  AggOutputter - over: 16
+15:46:46.494 [nioEventLoopGroup-3-11] INFO  AggOutputter - score: 22
+15:46:46.494 [nioEventLoopGroup-3-13] INFO  AggOutputter - doctor: 16
+15:46:46.494 [nioEventLoopGroup-3-15] INFO  AggOutputter - nature: 24
+15:46:46.522 [nioEventLoopGroup-3-16] INFO  AggOutputter - snow: 21
+15:46:46.524 [nioEventLoopGroup-3-17] INFO  AggOutputter - four: 22
+15:46:46.525 [nioEventLoopGroup-3-18] INFO  AggOutputter - keeps: 16
+15:46:46.527 [nioEventLoopGroup-3-19] INFO  AggOutputter - with: 24
+15:46:46.529 [nioEventLoopGroup-3-20] INFO  AggOutputter - a: 16
+15:46:46.530 [nioEventLoopGroup-3-21] INFO  AggOutputter - dwarfs: 21
+15:46:46.532 [nioEventLoopGroup-3-22] INFO  AggOutputter - white: 21
+15:46:46.533 [nioEventLoopGroup-3-23] INFO  AggOutputter - at: 24
+15:46:46.535 [nioEventLoopGroup-3-24] INFO  AggOutputter - the: 69
+15:46:46.537 [nioEventLoopGroup-3-1] INFO  AggOutputter - i: 24
+15:46:46.538 [nioEventLoopGroup-3-2] INFO  AggOutputter - and: 43
+15:46:46.540 [nioEventLoopGroup-3-3] INFO  AggOutputter - two: 24
+15:46:46.541 [nioEventLoopGroup-3-4] INFO  AggOutputter - away: 16
+15:46:46.543 [nioEventLoopGroup-3-5] INFO  AggOutputter - seven: 43
+15:46:46.545 [nioEventLoopGroup-3-6] INFO  AggOutputter - am: 24
+15:46:46.546 [nioEventLoopGroup-3-7] INFO  AggOutputter - apple: 16
+15:46:46.547 [nioEventLoopGroup-3-8] INFO  AggOutputter - an: 16
+15:46:46.549 [nioEventLoopGroup-3-9] INFO  AggOutputter - jumped: 16
+15:46:46.550 [nioEventLoopGroup-3-10] INFO  AggOutputter - years: 22
+15:46:46.551 [nioEventLoopGroup-3-11] INFO  AggOutputter - day: 16
+15:46:46.553 [nioEventLoopGroup-3-12] INFO  AggOutputter - ago: 22
+15:51:46.835 [nioEventLoopGroup-3-17] INFO  AggOutputter - over: 16
+15:51:46.835 [nioEventLoopGroup-3-16] INFO  AggOutputter - doctor: 20
+15:51:46.835 [nioEventLoopGroup-3-18] INFO  AggOutputter - nature: 20
+15:51:46.835 [nioEventLoopGroup-3-15] INFO  AggOutputter - cow: 16
+15:51:46.835 [nioEventLoopGroup-3-13] INFO  AggOutputter - moon: 16
+15:51:46.835 [nioEventLoopGroup-3-14] INFO  AggOutputter - score: 18
+15:51:46.837 [nioEventLoopGroup-3-19] INFO  AggOutputter - snow: 25
+15:51:46.838 [nioEventLoopGroup-3-20] INFO  AggOutputter - four: 18
+15:51:46.840 [nioEventLoopGroup-3-21] INFO  AggOutputter - keeps: 20
+15:51:46.841 [nioEventLoopGroup-3-22] INFO  AggOutputter - with: 20
+15:51:46.843 [nioEventLoopGroup-3-23] INFO  AggOutputter - a: 20
+15:51:46.844 [nioEventLoopGroup-3-24] INFO  AggOutputter - dwarfs: 25
+15:51:46.846 [nioEventLoopGroup-3-1] INFO  AggOutputter - white: 25
+15:51:46.847 [nioEventLoopGroup-3-2] INFO  AggOutputter - at: 20
+15:51:46.849 [nioEventLoopGroup-3-3] INFO  AggOutputter - the: 77
+15:51:46.850 [nioEventLoopGroup-3-4] INFO  AggOutputter - and: 43
+15:51:46.852 [nioEventLoopGroup-3-5] INFO  AggOutputter - i: 20
+15:51:46.853 [nioEventLoopGroup-3-6] INFO  AggOutputter - two: 20
+15:51:46.855 [nioEventLoopGroup-3-7] INFO  AggOutputter - away: 20
+15:51:46.857 [nioEventLoopGroup-3-8] INFO  AggOutputter - seven: 43
+15:51:46.858 [nioEventLoopGroup-3-9] INFO  AggOutputter - apple: 20
+15:51:46.860 [nioEventLoopGroup-3-10] INFO  AggOutputter - am: 20
+15:51:46.861 [nioEventLoopGroup-3-11] INFO  AggOutputter - an: 20
+15:51:46.863 [nioEventLoopGroup-3-12] INFO  AggOutputter - jumped: 16
+15:51:46.864 [nioEventLoopGroup-3-13] INFO  AggOutputter - day: 20
+15:51:46.865 [nioEventLoopGroup-3-14] INFO  AggOutputter - years: 18
+15:51:46.866 [nioEventLoopGroup-3-15] INFO  AggOutputter - ago: 18

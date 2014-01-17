@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MessageListener_jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar" recursive="false" />
+  </library>
+</component>
