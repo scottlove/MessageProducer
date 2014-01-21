@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="MessageListener">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MessageListener/out/artifacts/MessageListener_jar/MessageListener.jar!/" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
