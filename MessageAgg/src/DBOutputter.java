@@ -6,6 +6,8 @@ import java.io.Console;
 
 public class DBOutputter implements IOutputter  {
 
+
+
     @Override
     public void writeString(String data) {
         Logger logger = LogManager.getLogger(AggOutputter.class.getName());
