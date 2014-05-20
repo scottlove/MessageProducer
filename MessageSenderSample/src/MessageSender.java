@@ -1,4 +1,6 @@
 import java.util.Properties;
+import java.util.Random;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -41,6 +43,10 @@ public class MessageSender {
 
     public static void main(String[] args) throws Exception {
 
+        String [] sentences = new String []{ "the cow jumped over the moon", "an apple a day keeps the doctor away",
+                "four score and seven years ago", "snow white and the seven dwarfs", "i am at two with nature" };
+        Random rand = new Random();
+
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties() ;
         initializeApp(p);
@@ -52,7 +58,8 @@ public class MessageSender {
         Integer i = 0;
         while(true)
         {
-            message = "message count:"  + i.toString();
+            message = sentences[rand.nextInt(sentences.length)] ;
+            //message = "message count:"  + i.toString();
             Thread.sleep(100) ;
             msg.sendMessage(topic,message);
             i++;
