@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" filepath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegrationTests/IntegrationTests.iml" filepath="$PROJECT_DIR$/IntegrationTests/IntegrationTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageAgg/MessageAgg.iml" filepath="$PROJECT_DIR$/MessageAgg/MessageAgg.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" filepath="$PROJECT_DIR$/MessageMonitor/MessageMonitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageProducer.iml" filepath="$PROJECT_DIR$/MessageProducer.iml" />
