@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d018b69-2ecc-4d85-9a9e-8562a4d88499" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageAgg/src/DBFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageAgg/src/DBOutputter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageAgg/test/DBOutputterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageAgg/test/MessageAggTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" afterPath="$PROJECT_DIR$/ConsumerSample/ConsumerSample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageAgg/src/DBOutputter.java" afterPath="$PROJECT_DIR$/MessageAgg/src/DBOutputter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageAgg/MessageAgg.iml" afterPath="$PROJECT_DIR$/MessageAgg/MessageAgg.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" afterPath="$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MessageSenderSample_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MessageSenderSample_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageAgg/test/MessageAggTests.java" afterPath="$PROJECT_DIR$/MessageAgg/test/MessageAggTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageProducer.iws" />
@@ -34,11 +29,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MessageProducer$MessageMonitorTest.coverage" NAME="MessageMonitorTest Coverage Results" MODIFIED="1388632729153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MessageProducer$MessageAggTests.coverage" NAME="MessageAggTests Coverage Results" MODIFIED="1400557905558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MessageProducer$MessageMonitor.coverage" NAME="MessageMonitor Coverage Results" MODIFIED="1387824059410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MessageProducer$All_in_MessageSenderSample.coverage" NAME="All in MessageSenderSample Coverage Results" MODIFIED="1388634826579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MessageProducer$MessageMonitor.coverage" NAME="MessageMonitor Coverage Results" MODIFIED="1387824059410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MessageProducer$All_in_ConsumerSample.coverage" NAME="All in ConsumerSample Coverage Results" MODIFIED="1388634792741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MessageProducer$MessageSender.coverage" NAME="MessageSender Coverage Results" MODIFIED="1387844421124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MessageProducer$All_in_MessageMonitor.coverage" NAME="All in MessageMonitor Coverage Results" MODIFIED="1388634810601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MessageProducer$MessageSender.coverage" NAME="MessageSender Coverage Results" MODIFIED="1387844421124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MessageProducer$All_in_MessageServerApp.coverage" NAME="All in MessageServerApp Coverage Results" MODIFIED="1388634839374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -144,7 +139,7 @@
       <file leaf-file-name="MessageAggTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MessageAgg/test/MessageAggTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="46" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.4903846" vertical-offset="0" max-vertical-offset="1989">
+            <state line="59" column="13" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.38729018" vertical-offset="544" max-vertical-offset="1989">
               <folding>
                 <marker date="1400559492040" expanded="true" signature="3682:3734" placeholder="select * fro..words..." />
               </folding>
@@ -155,7 +150,7 @@
       <file leaf-file-name="DBOutputter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageAgg/src/DBOutputter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="43" selection-start="695" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1309">
+            <state line="25" column="43" selection-start="695" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -164,12 +159,8 @@
       <file leaf-file-name="MessageAggApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageAgg/src/MessageAggApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="44" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#252#253#0" expanded="false" />
-                <element signature="e#279#280#0" expanded="false" />
-              </folding>
+            <state line="31" column="44" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="901">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,17 +168,8 @@
       <file leaf-file-name="DBFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageAgg/src/DBFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="445" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2142">
-              <folding>
-                <element signature="e#907#908#0" expanded="false" />
-                <element signature="e#936#937#0" expanded="false" />
-                <element signature="e#975#976#0" expanded="false" />
-                <element signature="e#1003#1004#0" expanded="false" />
-                <element signature="e#1047#1048#0" expanded="false" />
-                <element signature="e#1078#1079#0" expanded="false" />
-                <element signature="e#1122#1123#0" expanded="false" />
-                <element signature="e#1153#1154#0" expanded="false" />
-              </folding>
+            <state line="20" column="8" selection-start="445" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2278">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -298,6 +280,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -447,7 +430,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1102,7 +1084,8 @@
       <workItem from="1390531084166" duration="654000" />
       <workItem from="1400287911139" duration="56000" />
       <workItem from="1400516606735" duration="57000" />
-      <workItem from="1400556718918" duration="2847000" />
+      <workItem from="1400556718918" duration="2888000" />
+      <workItem from="1400635237028" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="initial checking">
       <created>1386376674445</created>
@@ -1172,11 +1155,15 @@
       <created>1390316978731</created>
       <updated>1390316978731</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'master' of https://github.com/scottlove/MessageProducer&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1400559607018</created>
+      <updated>1400559607018</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162197000" />
+    <option name="totallyTimeSpent" value="162261000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1200,7 +1187,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1211,25 +1198,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45210728" sideWeight="0.8769968" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17816092" sideWeight="0.12034079" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17782027" sideWeight="0.12034079" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261481" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662836" sideWeight="0.8402556" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2257721" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18636848" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17816092" sideWeight="0.87965924" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17816092" sideWeight="0.87965924" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2257721" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662836" sideWeight="0.8402556" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1256,7 +1243,8 @@
     <MESSAGE value="Worked on adding trace message&#10;" />
     <MESSAGE value="Updated Monitor adding rolling file" />
     <MESSAGE value="Built basic monitor&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built basic monitor&#10;" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/scottlove/MessageProducer&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/scottlove/MessageProducer&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1273,9 +1261,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="8" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
@@ -1290,9 +1276,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsumerSample/test/ConsumerFileTest.java">
@@ -1307,9 +1291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
@@ -1463,23 +1445,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonitor/test/MessageMonitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1836">
-          <folding />
-        </state>
+        <state line="43" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonitor/src/MessageMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="29" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.0" vertical-offset="1707" max-vertical-offset="3111">
-          <folding />
-        </state>
+        <state line="142" column="29" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.0" vertical-offset="1707" max-vertical-offset="3111" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/test/MessageServerAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageServerApp/src/MessageServerApp.java">
@@ -1491,9 +1467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageSenderSample/src/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="43" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1343">
-          <folding />
-        </state>
+        <state line="56" column="43" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log4j2.xml">
@@ -1512,9 +1486,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
+        <state line="15" column="32" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageAgg/src/AggOutputter.java">
@@ -1534,27 +1506,14 @@
     <entry file="file://$PROJECT_DIR$/MessageAgg/src/DBFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="445" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2142">
-          <folding>
-            <element signature="e#907#908#0" expanded="false" />
-            <element signature="e#936#937#0" expanded="false" />
-            <element signature="e#975#976#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1078#1079#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageAgg/src/MessageAggApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="44" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,7 +1526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageAgg/test/MessageAggTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.4903846" vertical-offset="0" max-vertical-offset="1989">
+        <state line="59" column="13" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.38729018" vertical-offset="544" max-vertical-offset="1989">
           <folding>
             <marker date="1400559492040" expanded="true" signature="3682:3734" placeholder="select * fro..words..." />
           </folding>
