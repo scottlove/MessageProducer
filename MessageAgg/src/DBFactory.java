@@ -64,7 +64,9 @@ public final class DBFactory {
 
         }
         catch (SQLException e) {
-            logger.error("Connection Failed! Check output console");
+            logger.error("Connection Failed! Check output console:SQLServerConnect");
+            logger.error(getDBurl());
+            logger.error(e.getMessage())      ;
             return null;
         }
         return connection;
@@ -89,7 +91,9 @@ public final class DBFactory {
 
         }
         catch (SQLException e) {
-            logger.error("Connection Failed! Check output console");
+            logger.error("Connection Failed! Check output console:MYSqlConnect");
+            logger.error(getDBurl());
+            logger.error(e.getMessage())  ;
             return null;
         }
         return connection;
