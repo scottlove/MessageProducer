@@ -72,7 +72,7 @@ public class DBOutputter implements IOutputter  {
 
         logger.info(data.toString());
 
-        System.out.println("ran test")      ;
+        DBFactory.CloseConnection(connection);      ;
 
     }
 }

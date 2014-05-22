@@ -64,6 +64,7 @@ public class MessageAggTests {
             p.setProperty("db_password_local",password)   ;
 
 
+
         }
         catch(Exception e){
                assertTrue(false);

@@ -31,6 +31,8 @@ public class MessageAggApp {
         ApplicationProperties ap = new ApplicationProperties()  ;
         Properties p = ap.getProperties()  ;
         initializeApp(p);
+        DBFactory.initialize(p);
+
 
 
 
@@ -40,8 +42,9 @@ public class MessageAggApp {
         logger.info("port="+port);
 
 
-        AggOutputter a = new AggOutputter();
-        new TCPServer(port,a).run();
+        //AggOutputter a = new AggOutputter();
+        DBOutputter d =  new DBOutputter(p);
+        new TCPServer(port,d).run();
     }
 
 }
